@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Work sans',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: blue;
+  overflow-x: none;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased; }
+
+.container-fluid {
+  padding-top: 5%; }
+
+.row {
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.col-md-10 {
+  padding-left: 0;
+  padding-right: 0; }
+
+h1, h2, h3, h5 .h1 .h2 .h3 .h5 {
+  font-style: normal;
+  color: black;
+  padding-left: 10px; }
+
+p {
+  color: black;
+  word-wrap: break-word;
+  line-height: 1.6em;
+  padding-right: 10px; }
+
+h1, .h1 {
+  font-family: 'Teko',sans-serif;
+  font-size: 14em;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  transform: rotate(-1deg); }
+
+h2, .h2 {
+  font-family: 'Bungee Shade',sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0px;
+  word-wrap: break-word; }
+
+h3, .h3 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-left: 10px;
+  display: inline-block;
+  text-align: left; }
+
+h4, .h4 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: left; }
+
+h5, .h5 {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+  display: inline-block; }
+
+h6, .h6 {
+  font-size: 0.8em;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  display: inline-block; }
+
+.text {
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: none;
+  padding-left: 10px;
+  padding-right: 60px;
+  background-color: none; }
+
+#lenke h5 {
+  color: blue;
+  padding: 10px;
+  transition: background-color 0.5s ease;
+  text-decoration: underline; }
+
+#lenke h5:hover {
+  color: white;
+  background: blue;
+  text-decoration: none; }
+
+.footer {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 10px; }
+
+.awesome {
+  -webkit-animation: colorchange 10s infinite alternate; }
+
+.center {
+  margin: 0 auto; }
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue; }
+  20% {
+    color: yellow; }
+  40% {
+    color: pink; }
+  100% {
+    color: #00009f; } }
+
+@media screen and (max-width: 1080px) {
+
+        .h1 {
+                font-size: 8em; }
+            }
+
+@media screen and (max-width: 768px) {
+        .h1 {
+            font-size: 4em; }
+        }
